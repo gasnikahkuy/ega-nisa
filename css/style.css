@@ -38,8 +38,7 @@ html {
 
 body {
   font-family: "Dosis", sans-serif;
-  background-color: rgb(100, 19, 19); /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, rgb(100, 19, 19) , rgb(185, 109, 115));
+  background-color: #B76E79;
   font-size: 18px;
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
@@ -61,7 +60,7 @@ body {
 }
 
 p {
-  color: yellow;
+  color: rgb(255, 255, 255);
   line-height: 1.8em;
 }
 
@@ -71,7 +70,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: yellow;
+  color: rgb(255, 255, 255);
 }
 
 ul {
@@ -410,7 +409,7 @@ a:focus {
   margin: 0;
   font-size: 65px;
   font-size: 3.61111rem;
-  color: yellow;
+  color: rgb(255, 255, 255);
   opacity: 0.6;
 }
 
@@ -448,7 +447,7 @@ a:focus {
   background-color: rgba(94, 154, 142, 0.1);
   font-size: 46px;
   font-size: 2.55556rem;
-  color: yellow;
+  color: rgb(255, 255, 255);
   margin: 59px 0 0;
   padding: 10px 25px 5px;
   border-top: 2px solid rgba(94, 154, 142, 0.1);
