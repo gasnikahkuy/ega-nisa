@@ -38,7 +38,8 @@ html {
 
 body {
   font-family: "Dosis", sans-serif;
-  background-color: #fff;
+  background-color: rgb(100, 19, 19); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgb(100, 19, 19) , rgb(185, 109, 115));
   font-size: 18px;
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
@@ -60,7 +61,7 @@ body {
 }
 
 p {
-  color: #767878;
+  color: yellow;
   line-height: 1.8em;
 }
 
@@ -70,7 +71,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #6e6e6e;
+  color: yellow;
 }
 
 ul {
@@ -409,7 +410,7 @@ a:focus {
   margin: 0;
   font-size: 65px;
   font-size: 3.61111rem;
-  color: #5e9a8e;
+  color: yellow;
   opacity: 0.6;
 }
 
@@ -447,7 +448,7 @@ a:focus {
   background-color: rgba(94, 154, 142, 0.1);
   font-size: 46px;
   font-size: 2.55556rem;
-  color: #848383;
+  color: yellow;
   margin: 59px 0 0;
   padding: 10px 25px 5px;
   border-top: 2px solid rgba(94, 154, 142, 0.1);
@@ -2000,6 +2001,7 @@ a:focus {
 }
 
 .home-shade .static-hero {
+  background-color: rgba(0, 0, 0, 0.3);
   opacity: 0.4;
   z-index: 101;
 }
@@ -2321,7 +2323,7 @@ a:focus {
 }
 
 .wedding-couple-section .details .social-links a {
-  background-color: #7cafa5;
+  background-color: #a53b5b;
   width: 34px;
   height: 34px;
   line-height: 34px;
@@ -4490,3 +4492,4 @@ textarea.input100 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
